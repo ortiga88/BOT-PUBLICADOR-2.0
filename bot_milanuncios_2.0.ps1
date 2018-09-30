@@ -23,8 +23,8 @@ $caja.BackColor = [System.Drawing.Color]::black
 $caja.Text = "System.Windows.Forms.WebBrowser Class"
 $caja.Width = 900
 $caja.Height = 700
-$caja
-#$caja.Icon
+$caja.Text = "bot_milanuncios_2.0"
+$caja.Icon = [System.Drawing.Icon]::ExtractAssociatedIcon($PSScriptRoot + "\asset\bot.ico")
 $caja.StartPosition = [System.Windows.Forms.FormStartPosition]::CenterScreen
 
 
